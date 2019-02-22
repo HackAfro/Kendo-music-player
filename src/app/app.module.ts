@@ -7,7 +7,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './header/header.component';
 import { SongListComponent } from './song-list/song-list.component';
 import { SongItemComponent } from './song-item/song-item.component';
-import { HomeComponent } from './home/home.component';
 import { AlbumComponent } from './album/album.component';
 import { AlbumListComponent } from './album-list/album-list.component';
 import { LayoutModule} from '@progress/kendo-angular-layout';
@@ -22,7 +21,6 @@ import {HttpClientModule} from '@angular/common/http';
     HeaderComponent,
     SongListComponent,
     SongItemComponent,
-    HomeComponent,
     AlbumComponent,
     AlbumListComponent
   ],
